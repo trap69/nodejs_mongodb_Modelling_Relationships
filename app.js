@@ -42,4 +42,4 @@ async function listCourses() {
     console.log(courses);
   }
 
-  //listCourses();
+  listCourses();
