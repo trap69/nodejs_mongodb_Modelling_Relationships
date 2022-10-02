@@ -18,7 +18,7 @@ async function createAuthor(name, bio, website) {
     console.log(result);
   }
   
-  //createAuthor('Jolita', 'engage with javascript', 'https://programink.lt/');
+  createAuthor('Arnioldas', 'rzeczpos with javascript', 'https://bandymas.lt/');
 
   async function createCourse(name, author) {
     const course = new Course({
@@ -30,10 +30,10 @@ async function createAuthor(name, bio, website) {
     console.log(result);
   }
 
-//   createCourse('Node Course', '6207b9782df070e9a161c6fc')
-//   createCourse('JS Course', '6207b9782df070e9a161c6fc')
-//   createCourse('HTML Course', '6207b9782df070e9a161c6fc')
-//   createCourse('CSS Course', '6207b9782df070e9a161c6fc')
+createCourse('Node Course', '62bc2ef304333aa45e3e108c')
+createCourse('JS Course', '62bc2ef304333aa45e3e108c')
+createCourse('HTML Course', '62bc2fb74293e161827f57c9')
+createCourse('CSS Course', '62bc2fb74293e161827f57c9')
 
 async function listCourses() { 
     const courses = await Course
